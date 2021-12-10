@@ -1,0 +1,16 @@
+.programmingsearch{
+    margin-top: 100px;
+}
+
+.filter{
+    cursor: pointer;
+}
+
+.insidefilter{
+    display: none;
+}
+
+.programming1 video{
+    width: 450px;
+    height: 250px;
+}

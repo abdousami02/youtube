@@ -1,0 +1,331 @@
+/*start of top-menu div
+it is all about the fixed navbar
+*/
+body{
+    background-color: #f8f9fa;
+    font-family:serif;
+}
+.top-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+}
+
+.top-menu .fa-youtube{
+    color: red;  
+    cursor: pointer;
+}
+
+.top-menu .fa-ellipsis-v{
+    cursor: pointer;
+}
+
+.top-menu .fa-th{
+    cursor: pointer;
+  
+    
+}
+
+.top-menu #signButton{
+    max-width: 95px;
+    overflow: hidden;
+}
+
+
+
+
+.top-menu .fa-bars{
+    cursor: pointer;
+}
+
+
+.next-fixed-menu{
+    position: fixed;
+    top: 80px;
+    z-index: 3;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+}
+
+.next-fixed-menu .address .btn{
+    background-color: lightgray;
+     border-radius: 50%
+   
+}
+
+.next-fixed-menu .address .btn:hover{
+    background-color: gray;
+   
+   
+}
+
+.next-fixed-menu .address button:first-child{
+    background-color: black;
+    color: #eee;
+    border-radius: 50%;
+}
+
+
+
+.side-bar{
+    position: fixed;
+    height: 100%;
+    background-color: white;
+
+    
+}
+
+.side-bar .home{
+    position: relative;
+    top: 13px;
+    font-size: 12px;
+    font-weight:400;
+}
+
+.side-bar .fa-compass{
+    padding-top: 50px;
+}
+
+.side-bar .explore{
+    position: relative;
+    top: 13px;
+    font-size: 12px;
+    font-weight:400;
+}
+
+.side-bar .fa-youtube{
+    padding-top: 50px;
+}
+
+.side-bar .explore{
+    position: relative;
+    top: 13px;
+    font-size: 12px;
+    font-weight:400;
+}
+
+.side-bar .fa-book{
+    padding-top: 50px;
+}
+
+.side-bar .library{
+    position: relative;
+    top: 13px;
+    font-size: 12px;
+    font-weight:400;
+}
+
+
+.side-bar .fa-history{
+    padding-top: 50px;
+}
+
+.side-bar .history{
+    position: relative;
+    top: 13px;
+    font-size: 12px;
+    font-weight:400;
+}
+/*end of top-menu*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start of sport*/
+.sport{
+    margin-top: 170px;
+}
+
+
+
+.sport .main-video video{
+    width: 100%;
+}
+
+.sport-icon{
+    display: flex;
+    
+}
+
+
+.sport .icon{
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    margin-left: 70px;
+}
+
+.sport-icon i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.sport .video-list video{
+    width: 250px;
+    max-height: 250px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.video_watch video{
+    width: 250px;
+    max-height: 250px;
+    cursor: pointer;
+    margin-bottom: 5px;
+   
+}
+
+.main_subscribers{
+    padding-left: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+.main_image{
+    position: relative;
+    top: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circle{
+    position: relative;
+    top: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.subscribersUnder{
+    padding-left: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.sport .channel-name .btn{
+    width: 104px;
+    margin-top: 6px;
+   
+    background-color: red;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.sport .underMainVideo video{
+    width: 100%;
+}
+
+.sport .underMainVideo{
+    display: none;
+}
+
+
+
+.sport-iconUnder{
+    display: flex;
+    
+}
+
+
+.sport .iconUnder{
+    justify-content: flex-end;
+    display: flex;
+    width: 50%;
+    margin-left: 70px;
+    display: none;
+}
+
+.sport-iconUnder i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+.sport-iconUnder span{
+  
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.sport .channel-name .btn{
+    width: 104px;
+    margin-top: 6px;
+   
+    background-color: red;
+    color: white;
+}
+
+
+
+
+.sport .control.input-comment{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.sport .control .comment-div{
+    padding-left: 13px;
+    padding-bottom: 10px;
+    
+}
+
+.sport .control .comment-div div{
+
+    padding-bottom: 10px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+a:hover{
+    text-decoration: none;
+    color: black
+}
+
+
+
+
+
+
+
